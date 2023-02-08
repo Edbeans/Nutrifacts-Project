@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class ="favicon" rel="icon" href="images/logo.png">
+    <title>Nutrifacts!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/main.css">
+    <script src="dist/main.js"></script>
+</head>
+
+    <header>
+    
+    <div class="logo-head">
+        <img class="logo" src="images/logo.png" alt="nutrifacts-logo">
+        <h1 class="home" value="home">NUTRIFACTS</h1>
+    </div>
+
+</header>
+
+<body>
+    
+    <main>
+
+        <section class="homepage" id="main_page">
+            <div class="open">
+                <h1 class="welcome">Welcome</h1>
+                <h2 class="quote">Expanding your nutritional knowledge is a key to a healthy life.</h2>
+            </div>
+
+            <div class="select_meal_box">
+                <h2 class="select_meal_phrase">Please select a macronutrient you would like to learn more about:</h2>
+            </div>
+
+            <div class="meal_list">
+                <ul>
+                    <button class="protein">Proteins</button>
+                    <button class="carbs">Carbs</button>
+                    <button class="fats">Fats</button>
+                </ul>
+            </div>
+        </section>    
+
+        <section class="page macro_page" id="protein_page">
+            <p class="macro_name">Proteins</p>
+            <p class="macro_saying">An essential macronutrient and source for building and repairing muscle.</p>
+            <div class="slider" id="protein_slider">
+                <div class="slide protein_slide">
+                    <h1 class="food_name">Eggs</h1>
+                    <p class="benefit">Nutrient rich.</p>
+                    <img class="eggs" src="images/eggs.jpeg" alt="">
+                    <p>Per 100g of eggs provide:</p>
+                    <p>Calories: 142cal Protein: 12.2g Carbs: 1.4g Fats: 9.9g</p>
+                </div>
+
+                <div class="slide protein_slide">
+                    <h1 class="food_name">Chicken Breasts</h1>
+                    <p class="benefit">Rich in vitamins and minerals. Great source of protein.</p>
+                    <img class="chicken" src="images/chicken.jpeg" alt="">
+                    <p>Per 100g of chicken breasts provide:</p>
+                    <p>Calories: 165cal Protein: 31g Carbs: 0g Fats: 3.6g</p>
+                </div>
+            
+                <div class="slide protein_slide">
+                    <h1 class="food_name">Ground Beef</h1>
+                    <p class="benefit">High in iron and vitamin B12.</p>
+                    <img class="ground_beef" src="images/groundbeef.jpeg" alt="">
+                    <p>Per 100g of ground beef provides:</p>
+                    <p>Calories: 217cal Protein: 26.1g Carbs: 0g Fats: 11.8g</p>
+                </div>
+                
+                <div class="slide protein_slide">
+                    <h1 class="food_name">Turkey</h1>
+                    <p class="benefit">Low fat and highly rich in protein.</p>
+                    <img class="turkey"src="images/turkey.webp" alt="">
+                    <p>Per 100g of turkey provides:</p>
+                    <p>Calories: 189cal Protein: 29g Carbs: 0.1g Fats: 7.4g</p>
+                </div>
+ 
+                <div class="slide protein_slide">
+                    <h1 class="food_name">Salmon</h1>
+                    <p class="benefit">Promotes healthy fats, rich in omega-3 fatty acids.</p>
+                    <img class="salmon" src="images/salmon.jpeg" alt="">
+                    <p>Per 100g of salmon provides:</p>
+                    <p>Calories: 206cal Protein: 22g Carbs: 0g Fats: 12g</p>
+                </div>
+
+                <div class="slide protein_slide">
+                    <h1 class="food_name">Tofu</h1>
+                    <p class="benefit">Well balanced amino-acid profile.</p>
+                    <img class="tofu" src="images/tofu.jpeg" alt="">
+                    <p>Per 100g of tofu provides:</p>
+                    <p>Calories: 83cal Protein: 10g Carbs: 1.2g Fats: 5.3g</p>
+                </div>
+
+                <button class="btn btn-next p-btn-next">></button>
+                <button class="btn btn-prev p-btn-prev"><</button>
+
+            </div>
+        </section>        
+
+        <section class="page macro_page" id="carb_page">
+            <p class="macro_name">Carbohydrates</p>
+            <p class="macro_saying">Improve general performance and regulate your mood with this essential macronutrient.</p>
+            <div class="slider" id="carb_slider">
+                <div class="slide carb_slide">
+                    <h1 class="food_name">Sweet Potatoes</h1>
+                    <p class="benefit">Good source of fiber, vitamins and minerals.</p>
+                    <img class="sweet_potato" src="images/sweetpotato.webp" alt="">
+                    <p>Per 100g of sweet potato provides:</p>
+                    <p>Calories: 90cal Protein: 2g Carbs: 21g Fats: 0.2g</p>
+                </div>
+
+                <div class="slide carb_slide">
+                    <h1 class="food_name">Gold Potatoes</h1>
+                    <p class="benefit">Rich in potassium and flavor.</p>
+                    <img class="gold_potato" src="images/goldenpotato.jpeg" alt="">
+                    <p>Per 100g of gold/yukon potato provides:</p>
+                    <p>Calories: 128cal Protein: 3.5g Carbs: 29g Fats: 0.2g</p>
+                </div>
+
+                <div class="slide carb_slide">
+                    <h1 class="food_name">Quinoa</h1>
+                    <p class="benefit">Whole grain and naturally gluten free.</p>
+                    <img class="quinoa" src="images/quinoa.jpeg" alt="">
+                    <p>Per 100g of quinoa provides:</p>
+                    <p>Calories: 120cal Protein: 4.4g Carbs: 21.3g Fats: 1.9g</p>
+                </div>
+                
+                <div class="slide carb_slide">
+                    <h1 class="food_name">Brown Rice</h1>
+                    <p class="benefit">Highly nutritious, great alternative to white rice.</p>
+                    <img class="brown_rice"src="images/brownrice.jpeg" alt="">
+                    <p>Per 100g of brown rice provides:</p>
+                    <p>Calories: 112cal Protein: 2.3g Carbs: 24g Fats: 0.8g</p>
+                </div>
+
+                <div class="slide carb_slide">
+                    <h1 class="food_name">Oatmeal (raw)</h1>
+                    <p class="benefit">Reduces risk of heart disease and among the healthiest grain.</p>
+                    <img class="oatmeal" src="images/oatmeal.webp" alt="">
+                    <p>Per 100g of oatmeal(raw) provides:</p>
+                    <p>Calories: 389cal Protein: 16.89g Carbs: 66.27g Fats: 6.9g</p>
+                </div>
+
+                <div class="slide carb_slide">
+                    <h1 class="food_name">Pasta</h1>
+                    <p class="benefit">Can't go wrong with pasta.</p>
+                    <img class="pasta" src="images/pasta.webp" alt="">
+                    <p>Per 100g of pasta provides:</p>
+                    <p>Calories: 131cal Protein: 5.15g Carbs: 24.93g Fats: 1.05g</p>
+                </div>
+
+                <button class="btn btn-next c-btn-next">></button>
+                <button class="btn btn-prev c-btn-prev"><</button>
+
+            </div>
+        </section>
+
+        <section class="page macro_page" id="fat_page">
+            <p class="macro_name">Fats</p>
+            <p class="macro_saying">Key macronutrient in providing energy, keeping cholesterol and blood pressure regulated, and absorbing vital nutrients.</p>
+            <div class="slider" id="fat_slider">
+                <div class="slide fat_slide">
+                    <h1 class="food_name">Avocadoes</h1>
+                    <p class="benefit">Healthy butter. That's it.</p>
+                    <img class="avocado" src="images/avocado.webp" alt="">
+                    <p>Per 100g of avocado provides:</p>
+                    <p>Calories: 160cal Protein: 2g Carbs: 8.5g Fats: 15g</p>
+                </div>
+
+                <div class="slide fat_slide">
+                    <h1 class="food_name">Mixed Nuts</h1>
+                    <p class="benefit">Overall highly nutritious loaded with antioxidants.</p>
+                    <img class="mixed_nut" src="images/mixednuts.jpeg" alt="">
+                    <p>Per 100g of mixed nuts provide:</p>
+                    <p>Calories: 605cal Protein: 18.48g Carbs: 22g Fats: 55g</p>
+                </div>
+
+                <div class="slide fat_slide">
+                    <h1 class="food_name">Cheese</h1>
+                    <p class="benefit">Excellent source for calcium, fat, and protein.</p>
+                    <img class="cheese" src="images/cheese.jpeg" alt="">
+                    <p>Per 100g of cheese provides:</p>
+                    <p>Calories: 404cal Protein: 23g Carbs: 3.1g Fats: 33g</p>
+                </div>
+                
+                <div class="slide fat_slide">
+                    <h1 class="food_name">Peanut Butter</h1>
+                    <p class="benefit">High in vitamin E, magnesium, iron, and vitamin B6.</p>
+                    <img class="peanut_butter"src="images/peanutbutter.jpeg" alt="">
+                    <p>Per 100g of peanut butter provides:</p>
+                    <p>Calories: 588cal Protein: 22g Carbs: 24g Fats: 50g</p>
+                </div>
+
+                <div class="slide fat_slide">
+                    <h1 class="food_name">Dark Chocolate</h1>
+                    <p class="benefit">Good source of antioxidants.</p>
+                    <img class="dark_chocolate" src="images/darkchocolate.jpeg" alt="">
+                    <p>Per 100g of dark chocolate provides:</p>
+                    <p>Calories: 505cal Protein: 3.9g Carbs: 59.6g Fats: 34.2g</p>
+                </div>
+
+                <button class="btn btn-next f-btn-next">></button>
+                <button class="btn btn-prev f-btn-prev"><</button>
+
+            </div>
+        </section>
+
+
+    </main>
+
+        <footer id="footer">
+            <div class="footer-links">
+                <div class="profile-links">
+                    <a href="https://github.com/Edbeans" id="github" target="_blank">
+                        <img src="images/github.png" alt="github-logo">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ying-edward/" id="linkedin" target="_blank">
+                        <img src="images/linkedin.png" alt="linkedin-logo">
+                    </a>
+                </div>
+                <p>Check out my other profiles!</p>
+            </div> 
+    
+        </footer>
+
+</body>
+
+</html>
+
