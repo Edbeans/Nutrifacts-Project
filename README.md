@@ -22,7 +22,7 @@ Technologies, Libraries, APIs:
 
 This project will be implemented with the following technologies: 
 
-- Myfitnesspal data 
+- Myfitnesspal data
 - Javascript 
 - HTML / CSS 
 
