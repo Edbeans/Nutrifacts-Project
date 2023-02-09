@@ -4,7 +4,8 @@ import {Slider} from './scripts/slider.js'
 document.addEventListener('DOMContentLoaded', () => {
     Button.homePage(); 
     Button.redirectToHome(); 
-    Button.directToMacro(); 
+    Button.directToMacro();
+
 
     Slider.slideAction(".fat_slide", ".f-btn-next", ".f-btn-prev"); 
     Slider.slideAction(".carb_slide", ".c-btn-next", ".c-btn-prev");

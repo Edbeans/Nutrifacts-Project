@@ -1,5 +1,4 @@
 export const Button = {
-
     // initialize a home page 
     homePage() {
         document.querySelector("#main_page").style.display = 'block';
@@ -58,16 +57,19 @@ export const Button = {
     directToMacro() {
         const proteinButton = document.querySelector(".protein"); 
         proteinButton.addEventListener('click', () => {
+            document.getElementById("music").play();
             this.showProteinOnly();
         });
 
         const carbButton = document.querySelector(".carbs");
         carbButton.addEventListener('click', () => {
+            document.getElementById("music").play();
             this.showCarbOnly(); 
         });
 
         const fatButton = document.querySelector(".fats"); 
         fatButton.addEventListener('click', () => {
+            document.getElementById("music").play();
             this.showFatOnly();
         });
     },
