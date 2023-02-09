@@ -22,8 +22,8 @@ This project will be implemented with the following technologies:
 - HTML / CSS 
 
 Dynamic Slide function:
-<img src="slide_demo.gif"> 
-<img src="assets/slide.png">
+![](/assets/slide_demo.gif)
+![](/assets/slide.png)
 
 Future features: 
 - Users will be able to save food to a current meal (breakfast, lunch, dinner) 
