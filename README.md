@@ -5,7 +5,7 @@
 ## Background: 
 Nutrifacts is all about promoting healthy foods and how they can be delicious! Feel free to navigate through the site to read fun educational food facts as well as get a better understanding of the nutrients you're consuming. 
 
-# Functionality: 
+## Functionality: 
 
 With Nutrifacts, users will be able to: 
 
@@ -13,7 +13,7 @@ With Nutrifacts, users will be able to:
 - Browse the top healthiest/popular foods in the specified macronutrient category. 
 - Be able to see a breakdown of the macronutrients and calories. 
 
-# Technologies, Libraries, APIs: 
+## Technologies, Libraries, APIs: 
 
 This project will be implemented with the following technologies: 
 
@@ -21,11 +21,11 @@ This project will be implemented with the following technologies:
 - Javascript 
 - HTML / CSS 
 
-# Dynamic Slide function:
+## Dynamic Slide function:
 ![](/assets/slide_demo.gif)
 ![](/assets/slide.png)
 
-# Future features: 
+## Future features: 
 - Users will be able to save food to a current meal (breakfast, lunch, dinner) 
 
 - Be able to see total calories and macronutrients as they add the food to their meal.
