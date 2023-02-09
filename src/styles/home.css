@@ -27,6 +27,7 @@ body {
 
 .open .quote {
     font-size: 0.5em; 
+    margin-top: 0%;
     margin-bottom: 0%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -102,10 +103,9 @@ header {
     align-items: center;
 }
 
-.meals-head {
+.music{
     display: flex; 
     align-items: center; 
-    padding-right: 25px;
 }
 
 #footer {

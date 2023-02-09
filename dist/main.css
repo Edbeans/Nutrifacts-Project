@@ -17,7 +17,6 @@ body {
 .open {
     text-align: center;
     font-size: 4em;
-    padding-top: 1%;
 }
 
 .open .welcome {
@@ -31,6 +30,7 @@ body {
 
 .open .quote {
     font-size: 0.5em; 
+    margin-top: 0%;
     margin-bottom: 0%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -106,10 +106,9 @@ header {
     align-items: center;
 }
 
-.meals-head {
+.music{
     display: flex; 
     align-items: center; 
-    padding-right: 25px;
 }
 
 #footer {
@@ -183,7 +182,6 @@ header {
 }
 
 .slider {
-    padding-top: 1%;
     width: 100%;
     max-width: 500px;
     height: 550px;
