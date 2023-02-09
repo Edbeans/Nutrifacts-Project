@@ -11,10 +11,11 @@ With Nutrifacts, users will be able to:
 - Browse the top healthiest/popular foods in the specified macronutrient category. 
 - Be able to see a breakdown of the macronutrients and calories. 
 
+https://edbeans.github.io/Nutrifacts-Project/		
+
 Wireframe: 
 <img src="images/welcome_page.png">
 <img src="images/macro_type.png">
-
 
 
 Technologies, Libraries, APIs: 
@@ -36,3 +37,10 @@ Tuesday: Work on the UI and ensure it runs smoothly like a modern website.
 Wednesday: Touch up the styling on the UI.  
 
 Thursday Morning: Deploy to GitHub and edit the README if any other changes are made. 
+
+Future features: 
+- Users will be able to save food to a current meal (breakfast, lunch, dinner) 
+
+- Be able to see total calories and macronutrients as they add the food to their meal.
+
+- Save the customized meal and be able to see all saved meals. 
