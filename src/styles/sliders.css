@@ -15,7 +15,7 @@
 
 .macro_name {
     margin-bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     font-size: 3em;
     opacity: 0;
     animation: fadeIn 3s; 
@@ -33,7 +33,7 @@
 }
 
 .slider {
-    padding-top: 5%;
+    padding-top: 1%;
     width: 100%;
     max-width: 500px;
     height: 550px;
