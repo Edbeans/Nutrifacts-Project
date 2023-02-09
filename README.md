@@ -22,7 +22,7 @@ This project will be implemented with the following technologies:
 - HTML / CSS 
 
 Dynamic Slide function:
-<img src="slide_demo.mp4"> 
+<img src="slide_demo.gif"> 
 <img src="assets/slide.png">
 
 Future features: 
