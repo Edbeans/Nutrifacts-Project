@@ -24,10 +24,3 @@ This project will be implemented with the following technologies:
 ## Dynamic Slide function:
 ![](/assets/slide_demo.gif)
 ![](/assets/slide.png)
-
-## Future features: 
-- Users will be able to save food to a current meal (breakfast, lunch, dinner) 
-
-- Be able to see total calories and macronutrients as they add the food to their meal.
-
-- Save the customized meal and be able to see all saved meals. 
